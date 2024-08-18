@@ -6,15 +6,15 @@ warnings.filterwarnings("ignore")
 import os
 
 #Load the Encoder
-with open(os.path.join(os.path.join('Artifacts,encoder.pkl'),'rb')) as f:
+with open(os.path.join('encoder.pkl'),'rb')) as f:
     encoder = pickle.load(f)
 
 #Load the Scaler
-with open('Artifacts\scaler.pkl','rb') as f:
+with open('scaler.pkl','rb') as f:
     scaler = pickle.load(f)
 
 #Load the model
-with open('Artifacts\model.pkl','rb') as f:
+with open('model.pkl','rb') as f:
     model = pickle.load(f)
 
 #set up streamlit app
