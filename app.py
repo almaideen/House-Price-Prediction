@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")
 import os
 
 #Load the Encoder
-with open(os.path.join('encoder.pkl'),'rb')) as f:
+with open('encoder.pkl','rb') as f:
     encoder = pickle.load(f)
 
 #Load the Scaler
