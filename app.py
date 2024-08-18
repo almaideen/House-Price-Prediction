@@ -3,10 +3,10 @@ import pickle
 import pandas as pd
 import warnings
 warnings.filterwarnings("ignore")
-from PIL import Image
+import os
 
 #Load the Encoder
-with open('Artifacts\encoder.pkl','rb') as f:
+with open(os.path.join(os.path.join('Artifacts,encoder.pkl'),'rb')) as f:
     encoder = pickle.load(f)
 
 #Load the Scaler
