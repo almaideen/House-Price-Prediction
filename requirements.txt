@@ -3,6 +3,6 @@ numpy
 matplotlib
 seaborn
 Cython==0.29.36
-scikit-learn==1.2.2
+scikit-learn==1.2.2 --no-build-isolation
 streamlit
 ipykernel
