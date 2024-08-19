@@ -43,5 +43,5 @@ The best-performing model is Random Forest Regressor which achieved an R² score
 
 **Deployment**
 
-Streamlit is the webframework used to build app for the business problem and deployed on Streamlit Cloud. You can access the app using the [link] (https://us-house-price-prediction.streamlit.app/).
+Streamlit is the webframework used to build app for the business problem and deployed on Streamlit Cloud. You can access the app using the [link](https://us-house-price-prediction.streamlit.app/).
 
